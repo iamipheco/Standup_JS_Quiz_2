@@ -1,6 +1,6 @@
 const countriesList = document.querySelector('.countries-list');
 const countryDetails = document.querySelector('.country-details');
-const itemsPerPage = 20;
+const itemsPerPage = 10;
 let currentPage = 1;
 let countriesData = [];
 
