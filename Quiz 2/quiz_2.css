@@ -1,0 +1,122 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f9dcac;
+  }
+  
+  header {
+    background-color: #643908;
+    color: #fff;
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+
+  header p{
+    padding-right: 20px;
+  }
+
+  main {
+    background-color: #fefdfc;
+    margin: 30px 300px 20px;
+  }
+  
+  .countries-list,
+  .country-details {
+    padding: 30px;
+    
+  }
+
+  .country-details {
+    background-color: #ffedda;
+    line-height: 0.9dvh;
+  }
+  
+  .countries-list {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 5px;
+  }
+  
+  .country-card {
+    border: 2px solid #ffce99;
+    padding-top: 10px;
+    text-align: center;
+  }
+
+  .country-card  h2 {
+    font-size: 17px;
+  }
+
+  .country-card p {
+    font-size: 12px;
+  }
+  
+  .country-card img {
+    width: 100%;
+    max-width: 50px;
+  }
+
+  .pagination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 16px;
+    padding: 10px;
+  }
+  
+  .pagination button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 0.5rem 1rem;
+    margin: 0 0.5rem;
+    cursor: pointer;
+  }
+  
+  .pagination button:hover {
+    background-color: #555;
+  }
+  
+  #page-info {
+    font-size: 1.2rem;
+  }
+  
+  #country-pop {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .countryPopImages img{
+    max-width: 35px;
+  }
+
+  .countryPopImages{
+    flex: 1;
+  }
+
+  .countryPopName {
+    flex: 4;
+    text-align: center;
+    line-height: 0.9dvh;
+  }
+
+  .countryPopName h2{
+    color: #975b1b;
+    font-size: 25px;
+  }
+
+.countryPopName p, .country-de p{
+    font-size: 15px;
+}
+
+footer {
+    padding: 15px;
+    background-color: #333;
+    color: #ffedda;
+    display: flex;
+    justify-content: space-between;
+}
